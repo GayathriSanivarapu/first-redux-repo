@@ -13,7 +13,6 @@ function Home() {
 
   const onIncrement = () => {
     dispatch(increment())
-    navigation('/about')
   }
   const onDecrement = () => {
     dispatch(decrement())
